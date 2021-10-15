@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  background-color: #ffcfdf;
+  background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quiz-container {
+  background-color: #fff;
+  width: 400px;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0 0 5px;
+  height: 300px;
+}
+
+.question_header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.question_header ul {
+  margin-left: -300px;
+  margin-top: 10px;
+  line-height: 3;
+  list-style: none;
+}
+
+.question_header input {
+  cursor: pointer;
+}
+
+.question_header h2 {
+  font-style: italic;
+  margin-left: -30px;
+}
+
+button {
+  background-color: #6a93cb;
+  background-image: linear-gradient(315deg, #6a93cb 0%, #a4bfef 74%);
+  display: block;
+  width: 100%;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 0 0 5px 5px;
+  padding-bottom: 1rem;
+  font-size: 1.3rem;
+}
